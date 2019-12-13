@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Python Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Python Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects Page</a></li>
+							<li class="active"><a href="python.html">Python</a></li>
+							<li><a href="javascript.html">Javascript</a></li>
+                            
+                            <li><a href="cSharp.html">C#</a></li>
+                            <li><a href="cPlusPlus.html">C++</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header>
+									
+								</header>
+
+								<!-- Text stuff -->
+									<h2>Me and Python</h2>
+									<p>Python was the first language I learned. I took an online tutorial called Learn Python the Hard Way. Worked through the 40 or so exercises learning all about programming basics. Below you will find different short projects I have made in python. Thanks for looking!</p>
+									<hr />
+
+								<!-- Table -->
+									<h2>Python Console Projects</h2>
+
+									<h4>These console projects were inspired by working through "Automate the Boring Stuff with Python" by Al Sweitgart in Object Oriented Programming at ASUMH</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Project</th>
+                                                    
+													<th>Description</th>
+													<th>Code</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>collatzSequence.py</td>
+													<td>Simple collatz sequence program. Enter an integer as input
+Program will then output integers based on odd or even
+If odd, the output is 3 * (odd number) + 1
+If even, the output is (even number) // 2
+<br />
+This output will continue until the program reaches the integer: 1</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/collatzSequence" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>xkcdWebScraper.py</td>
+													<td>XKCD web scraper will use multithreading to download 2200 XKCD comics using 22 threads
+Saves all comic pages to the local directory.
+<br />
+uses modules:
+requests, os, bs4, threading</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/xkcdWebScraper" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>logifyApp.py</td>
+													<td>logifyApp requires a logo.png image in the working director
+Add images to the working directory to be modified to the existing image
+Suggest using image copies into the working directory to avoid original image loss
+logo.png is added to the lower right corner 
+<br />
+Uses PIL module</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/addLogo" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>countdownAudio.py</td>
+													<td>Simple countdown program asks an integer from the user. The program counts down from integer and then plays
+"finalCountdown.WAV" within python using the pyaudio module. Requires separate download of
+finalCountdown.WAV for full functionality. Obviously changing audio file in local path will allow other .WAV files to play
+after countdown
+
+
+<br />Uses time, subprocess, playsound, wave, pyaudio</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/countdownAudio" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>duesApp.py</td>
+													<td>duesApp takes data from the duesRecords excel file. Parces out which cells are 'unpaid' and then sends an email
+notifying the name of the date/cell where there is a payment due. Requires user input of email and password.
+App is scalable to the excel workbook
+
+
+<br />
+Uses Modules:
+openpyxl, smtplib, sys, datetime
+
+includes commented out code from failed attempts</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/emailsFromExcel" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>guessMyNumber.py</td>
+													<td>Simple guess my number game. Contains an troubleshooting number input: "99"
+Minor ascii interface for a more interactive experience
+<br />Also, a little Beyonce thrown in too</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/guessMyNumber" class="button">Source Code</a></td>
+												</tr>
+            <tr>
+													<td>invitationCreator.py</td>
+													<td>invitationCreator will create individual invitations into a single Word document. Pulls names from the 
+"names.txt" file and then imports that data into a new word document page. In this instance 20 names will create 20 separate
+invitations with a png picture. Download all assets to run the program without errors
+
+<br />Uses the docx module</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/invitationCreator" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>multiplicationTableCreator.py</td>
+													<td>multiplicationTableCreator creates a new excel workbook with the multiplication table set by the argv value
+For example:
+python multiplicationTableCreator.py 10
+# user enters input for new file name
+# creates an excel document with the new file name containing a 10 by 10 multiplication table
+<br />
+Uses modules:
+import sys, openpyxl</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/multiplicationTable" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>pwLocker.py</td>
+													<td>This is an unsecure python script designed to take passwords from code and copy that password to
+the clipboard. Reccomend securing the program before entering any sensitie information for automation
+Uses the following modules:
+sys
+pyperclip
+
+When running the program, enter the type of password you want to copy
+<br />
+For example:
+python pwLocker.py email
+# this will copy: "pw_for_email" 
+# to the clipboard</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/pwLocker" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>pwValidation.py</td>
+													<td>Python password authentication function
+
+Password entered must meet the following parameters:
+8 chars long
+one uppercase char
+one digit
+one special char (!, ?, #, @. %)
+
+Prints validation requirements if any requirement is missing
+<br />Program uses regex for validation</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/pwValidation" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>songQuizGenerator.py</td>
+													<td>Song quiz generator will generate 5 different quizzes based on matching the song with the artist with 50 different multiple choice
+questions and save them as a songQuiz#.txt file and the number will increment with each quiz</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/quizGenerator" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>justTextMeSomeWeather.py</td>
+													<td>justTextMeSomeWeather uses Twilio and requires a twilio accountSID, authToken and OpenWeatherMan API key to
+function properly. Input Twilio and openweatherman api data and then use sys argv with your desired zip code
+for example:
+python justTextMeSomeWeather.py 72653
+# follow user inputs for which phone number to send to
+# sends weather data to the desired phone number
+<br />
+uses the following modules:
+json, requests, sys, time, math
+</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/textApp" class="button">Source Code</a></td>
+												</tr>
+                                                <tr>
+													<td>toDoList.py</td>
+													<td>Simple to do list program. 
+Program asks the user for a task, appends the task to a list and will keep asking until the user enters "done" <br />
+Prints the list to the console upon completion</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/toDoList" class="button">Source Code</a></td>
+												</tr>
+                                                                                <tr>
+													<td>weatherAPI.py</td>
+													<td>WeatherAPI requires an API key from openweathermap for full functionality (obviously not provided for Git Publishing)
+Contains wind direction function, formats degrees to cardinal direction
+Uses sys argv for city location, for example:
+
+python weatherAPI.py 93446
+#will pull weather data for the Northern San Luis Obispo County
+
+                                                        <br />
+Uses modules:  json, requests, sys, time, math</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/weatherAPI" class="button">Source Code</a></td>
+												</tr>
+                                                                                <tr>
+													<td>zipBackUp.py</td>
+													<td>zipBackUp program will take user input to identify the file to backup and then create a new compressed file into a new backup folder
+First verifies if there is an existing backup folder from local directory
+Then asks for the filename in local directory
+Increments filename if more than one backup copy has been made (for larger projects) in local directory
+Saves zipfile to local directory backup folder
+<br />
+uses the following modules:
+zipfile, os, shutil, pathlib</td>
+													<td><a href="https://github.com/markfoos/python_console_projects/tree/python_console_projects/zipBackUp" class="button">Source Code</a></td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h3>Older Python Game Programs</h3>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Game</th>
+													<th>Description</th>
+													<th>Github</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>gridGame.py</td>
+													<td>Source code for an incomplete grid based game. Based on
+"Tile-Based Game" by KidsCanCode YouTube Chanel. 
+<br />
+Two years ago I was very happy to get this working.</td>
+													<td><a href="https://github.com/markfoos/Python-exe/tree/master/sourcreCode" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>ticTacToe.py</td>
+													<td>ticTacToe game ran in console. Inspired by "Invent Your Own Computer Games with Python" by Al Sweitgart</td>
+													<td><a href="https://github.com/markfoos/Python-exe" class="button">Source Code</a></td>
+												</tr>
+												<tr>
+													<td>bagel.py</td>
+													<td>bagel game ran in console. Inspired by "Invent Your Own Computer Games with Python" by Al Sweitgart</td>
+													<td><a href="https://github.com/markfoos/Python-exe" class="button">Source Code</a></td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<hr />
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+		<footer id="footer">
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Mountain Home, Arkansas<br />
+								</p>
+							</section>
+							
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">markdfoos@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+							
+									<li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+					
+				<!-- Copyright -->
+	<div id="copyright">
+						<ul><li>&copy; </li><li><a href="https://html5up.net">Original Site Framework by HTML5UP</a></li></ul>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
