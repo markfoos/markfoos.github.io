@@ -4,6 +4,47 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+    
+    td img{
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+</style>
+
 <html>
 	<head>
 		<title>You found Mark</title>
@@ -21,21 +62,24 @@
 					<div id="intro">
                         <h2>Hello, I am<br /></h2>
 						<h1>Mark Foos</h1>
-						<p>Programmer</p>
+						<p>IAM Consultant with ICSynergy</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
 				<!-- Header -->
-					<header id="header">
+				<!--	<header id="header">
 						<a href="index.html" class="logo">Projects Page</a>
 					</header>
+                -->
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects Page</a></li>
+							<li class="active"><a href="index.html">IAM Projects Page</a></li>
+                            <li><a href="ppp.html">Personal Projects Page</a></li>
+                            
 							<li><a href="python.html">Python</a></li>
 							<li><a href="javascript.html">Javascript</a></li>
                             
@@ -55,71 +99,114 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="javascript.html">4096<br />
-									A Javascript Game</a></h2>
-									<p>Addicting number sliding action puzzle game<br />
-									Built in phaser javascript game framework<br />
-									</p>
+                                    <h2><a href="https://www.okta.com/services/certification/">Okta Certified</h2>
+                                        <h4>Professional - Administrator - Consultant - Developer</h4></h2></a></header>
+									<div class="row">
+  <div class="column">
+    <img src="images/Okta-Certified-Professional.png" alt="Okta_Pro" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/Okta-Certified-Administrator.png" alt="Okta Admin" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/Okta_CertifiedConsultant_0.png" alt="Okta Consult" style="width:100%">
+  </div>
+                                         <div class="column">
+                                             <img src="images/okta_dev.png" alt="Okta Dev" style="width:100%">
+  </div>
+</div>
+                                    
+                                    <!-- Post -->
+                                    
+							<section class="post">
+								<header>
+									
 								</header>
-								<a href="javascript.html" class="image center"><img src="images/4096inAction.PNG" alt="4096 img" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/markfoos/HTML5-4096" class="button large">GitHub Repo</a></li>
-								</ul>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="cSharp.html">M3<br />
-										A Movies Company</a></h2>
-									</header>
-									<a href="cSharp.html" class="image fit"><img src="images/m3main.PNG" alt="" /></a>
-									<p>Built in the asp.Net framework. A MVC website that pulls from an SQL database to display customers and movies with different user permissions</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/markfoos/M3-an-ASP.NET-application" class="button">GitHub Repo</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="cPlusPlus.html">Cave Story<br />
-										A C++ Game</a></h2>
-									</header>
-									<a href="cPlusPlus.html" class="image fit"><img src="images/caveStory1.PNG" alt="" /></a>
-									<p>Remake project of the sidescrolling platforming game originally made by Dokutsu Monogatari. Built entirely in C++ using the SDL2 library</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/markfoos/C-Cave-Story-Project" class="button">GitHub Repo</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="python.html">Python Console Projects!<br />
-										</a></h2>
-									</header>
-									<a href="python.html" class="image fit"><img src="images/python.png" alt="" /></a>
-									<p>My first programming language. These projects range from different games to specific modules to be ran in the browser.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/markfoos/python_console_projects" class="button">GitHub Repo</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="cPlusPlus.html">C++ Console Games!<br />
-										</a></h2>
-									</header>
-									<a href="cPlusPlus.html" class="image fit"><img src="images/cpp_logo.png" alt="" /></a>
-									<p>Different console games built in C++ to demonstrate logical understanding of C++ programming</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/markfoos/C-Plus-Plus_Games" class="button">GitHub Repo</a></li>
-									</ul>
-								</article>
+								<!-- Text stuff -->
 								
-							</section>
 
+								<!-- Table -->
+									<h2><br>Okta Projects</h2>
+
+									<h4>These projects are part of an ongoing or completed engagement of professional services</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Project</th>
+                                                    
+													<th>Description</th>
+													<th>Logo/Link</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td style="vertical-align:top">Baker Hughes CIAM</td>
+													<td style="vertical-align:top">Assist in troubleshooting Springboot applications and their password_reset flows as well as their Org2Org architecture</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.bakerhughes.com/"><img src="images/bakerhughes.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                <tr>
+													<td style="vertical-align:top">IDRM</td>
+													<td style="vertical-align:top">ICSynergy's latest product. Tassks include: Regression testing of latest builds, AWS deployment documentation, Okta integration documentation</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.icsynergy.com/services/identityrm-r"><img src="images/idrm_logo.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                	<tr>
+													<td style="vertical-align:top">UW Med Okta Enterprise Deployment</td>
+													<td style="vertical-align:top">EpicCare Link and Okta deployment. Multiple environments. Custom enterprise flow for EpicCare Link end users.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.uwmedicine.org/"><img src="images/uw_med.jpg" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                 	<tr>
+													<td style="vertical-align:top">Emerson</td>
+													<td style="vertical-align:top">ICBatch update. ICBatch is a Java application made to bulk import users into Okta or LDAP. Tasked with updating current deployment to fix import bugs.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.emerson.com/en-us"><img src="images/emerson-logo.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                 	<tr>
+													<td style="vertical-align:top">SCGTS</td>
+													<td style="vertical-align:top">Update the legacy SPGW appliances to Okta Access Gateway</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="http://www.scgts.com/"><img src="images/sm_globaltubular.jpg" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr> 	<tr>
+													<td style="vertical-align:top">EZ Texting</td>
+													<td style="vertical-align:top">Full Okta deployment as Architect and TC for 200 users. ADP as a Source with Google Workspace.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.eztexting.com/"><img src="images/eztext.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                <tr>
+													<td style="vertical-align:top">LawPro</td>
+													<td style="vertical-align:top">IDRM deployment in AWS. Okta Enterprise and CIAM deployment.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.lawpro.ca/"><img src="images/logo-lawpro.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                <tr>
+													<td style="vertical-align:top">CommonSpirit</td>
+													<td style="vertical-align:top">200k user Enterprise Okta deployment. Part of the customer assurance task force to bring Okta best practices to the deployment.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://commonspirit.org/"><img src="images/commonspirit.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                <tr>
+													<td style="vertical-align:top">TPx</td>
+													<td style="vertical-align:top">Okta Access Gateway deployment. TC and Architect roles for protecting on-prem applications with OAG.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.tpx.com/"><img src="images/tpx.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                                <tr>
+													<td style="vertical-align:top">Zurich</td>
+													<td style="vertical-align:top">Worked as a TC using OAG as a replacement solution to open source Nevis reverse proxy authentication.</td>
+                                                    <td><div style="margin: 0px auto; width: 100px">
+                                                        <a href="https://www.zurich.com/"><img src="images/zurich.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
+												</tr>
+                                            
+												
+                                            </tbody>
+                                        </table>
+                                        
+                                    
+                                    
 						<!-- Footer -->
 							<footer>
 							
@@ -132,14 +219,14 @@
 						
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
-								<p>Cincinnati, Ohio<br />
+								<h3>Time Zone</h3>
+								<p>Dayton, Ohio<br />
 								</p>
 							</section>
 							
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">markdfoos@gmail.com</a></p>
+								<p><a href="#">mark.foos@icsynergy.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
