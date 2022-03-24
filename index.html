@@ -5,255 +5,680 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <style>
-* {
-  box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
+    .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+    }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-    
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
     table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-    
-    td img{
-    display: block;
-    margin: 0 auto;
-    vertical-align: middle;
-}
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    td img {
+        display: block;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+    .okta-table {
+        vertical-align: middle;
+        text-align: center;
+        border: 2px solid black;
+        color: blue;
+        font-size: 150%;
+        font-weight: 700;
+        font-family: monospace;
+        padding: 2px 2px 2px 2px;
+
+    }
+
 </style>
 
 <html>
-	<head>
-		<title>You found Mark</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+    <title>You found Mark</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
 
-				<!-- Intro -->
-					<div id="intro">
-                        <h2>Hello, I am<br /></h2>
-						<h1>Mark Foos</h1>
-						<p>IAM Consultant with ICSynergy</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<body class="is-preload">
 
-				<!-- Header -->
-				<!--	<header id="header">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h2>Hello, I am<br /></h2>
+            <h1>Mark Foos</h1>
+            <p>IAM Consultant</p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <!--	<header id="header">
 						<a href="index.html" class="logo">Projects Page</a>
 					</header>
                 -->
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">IAM Projects Page</a></li>
-                            <li><a href="ppp.html">Personal Projects Page</a></li>
-                            
-							<li><a href="python.html">Python</a></li>
-							<li><a href="javascript.html">Javascript</a></li>
-                            
-                            <li><a href="cSharp.html">C#</a></li>
-                            <li><a href="cPlusPlus.html">C++</a></li>
-						</ul>
-						<ul class="icons">
-							
-							<li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html#iam-projects">IAM Projects</a></li>
+                <li><a href="pro-projects-java.html">JAVA/Professional Projects</a></li>
+                <li><a href="ppp.html">Personal Projects</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+            </ul>
+            <ul class="icons">
 
-				<!-- Main -->
-					<div id="main">
+                <li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-                                    <h2><a href="https://www.okta.com/services/certification/">Okta Certified</h2>
-                                        <h4>Professional - Administrator - Consultant - Developer</h4></h2></a></header>
-									<div class="row">
-  <div class="column">
-    <img src="images/Okta-Certified-Professional.png" alt="Okta_Pro" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/Okta-Certified-Administrator.png" alt="Okta Admin" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/Okta_CertifiedConsultant_0.png" alt="Okta Consult" style="width:100%">
-  </div>
-                                         <div class="column">
-                                             <img src="images/okta_dev.png" alt="Okta Dev" style="width:100%">
-  </div>
-</div>
-                                    
-                                    <!-- Post -->
-                                    
-							<section class="post">
-								<header>
-									
-								</header>
+        <!-- Main -->
+        <div id="main">
 
-								<!-- Text stuff -->
-								
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="https://www.okta.com/services/certification/">Okta Certified</h2>
+                    <h4>Professional - Administrator - Consultant - Developer</h4>
+                    </h2></a>
+                </header>
+                <div class="row">
+                    <div class="column">
+                        <img src="images/Okta-Certified-Professional.png" alt="Okta_Pro" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="images/Okta-Certified-Administrator.png" alt="Okta Admin" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="images/Okta_CertifiedConsultant_0.png" alt="Okta Consult" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="images/okta_dev.png" alt="Okta Dev" style="width:100%">
+                    </div>
+                </div>
 
-								<!-- Table -->
-									<h2><br>Okta Projects</h2>
+                <!-- Post -->
 
-									<h4>These projects are part of an ongoing or completed engagement of professional services</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Project</th>
-                                                    
-													<th>Description</th>
-													<th>Logo/Link</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td style="vertical-align:top">Baker Hughes CIAM</td>
-													<td style="vertical-align:top">Assist in troubleshooting Springboot applications and their password_reset flows as well as their Org2Org architecture</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.bakerhughes.com/"><img src="images/bakerhughes.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                <tr>
-													<td style="vertical-align:top">IDRM</td>
-													<td style="vertical-align:top">ICSynergy's latest product. Tassks include: Regression testing of latest builds, AWS deployment documentation, Okta integration documentation</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.icsynergy.com/services/identityrm-r"><img src="images/idrm_logo.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                	<tr>
-													<td style="vertical-align:top">UW Med Okta Enterprise Deployment</td>
-													<td style="vertical-align:top">EpicCare Link and Okta deployment. Multiple environments. Custom enterprise flow for EpicCare Link end users.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.uwmedicine.org/"><img src="images/uw_med.jpg" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                 	<tr>
-													<td style="vertical-align:top">Emerson</td>
-													<td style="vertical-align:top">ICBatch update. ICBatch is a Java application made to bulk import users into Okta or LDAP. Tasked with updating current deployment to fix import bugs.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.emerson.com/en-us"><img src="images/emerson-logo.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                 	<tr>
-													<td style="vertical-align:top">SCGTS</td>
-													<td style="vertical-align:top">Update the legacy SPGW appliances to Okta Access Gateway</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="http://www.scgts.com/"><img src="images/sm_globaltubular.jpg" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr> 	<tr>
-													<td style="vertical-align:top">EZ Texting</td>
-													<td style="vertical-align:top">Full Okta deployment as Architect and TC for 200 users. ADP as a Source with Google Workspace.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.eztexting.com/"><img src="images/eztext.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                <tr>
-													<td style="vertical-align:top">LawPro</td>
-													<td style="vertical-align:top">IDRM deployment in AWS. Okta Enterprise and CIAM deployment.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.lawpro.ca/"><img src="images/logo-lawpro.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                <tr>
-													<td style="vertical-align:top">CommonSpirit</td>
-													<td style="vertical-align:top">200k user Enterprise Okta deployment. Part of the customer assurance task force to bring Okta best practices to the deployment.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://commonspirit.org/"><img src="images/commonspirit.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                <tr>
-													<td style="vertical-align:top">TPx</td>
-													<td style="vertical-align:top">Okta Access Gateway deployment. TC and Architect roles for protecting on-prem applications with OAG.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.tpx.com/"><img src="images/tpx.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                                <tr>
-													<td style="vertical-align:top">Zurich</td>
-													<td style="vertical-align:top">Worked as a TC using OAG as a replacement solution to open source Nevis reverse proxy authentication.</td>
-                                                    <td><div style="margin: 0px auto; width: 100px">
-                                                        <a href="https://www.zurich.com/"><img src="images/zurich.png" alt="" padding=0 display= inline-block height=100 width=100 overflow="hidden" positon="absolute"></a></div></td>
-												</tr>
-                                            
-												
-                                            </tbody>
-                                        </table>
-                                        
-                                    
-                                    
-						<!-- Footer -->
-							<footer>
-							
-							</footer>
+                <section class="post">
+                    <header>
 
-					</div>
+                    </header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Time Zone</h3>
-								<p>Dayton, Ohio<br />
-								</p>
-							</section>
-							
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">mark.foos@icsynergy.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-							
-									<li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                    <!-- Text stuff -->
+                    <h2><br>Okta Product Experience</h2>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; </li><li><a href="https://html5up.net">Original Site Framework by HTML5UP</a></li></ul>
-					</div>
+                    <h4></h4>
+                    <div>
+                        <table style="width: 100%; border: 1px solid black">
+                            <tr>
+                                <td class="okta-table"><a href="https://help.okta.com/oag/en-us/Content/Topics/Access-Gateway/ag-main.htm" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">Okta Access Gateway</a></td>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                                <td class="okta-table"><a href="https://help.okta.com/en/prod/Content/Topics/Provisioning/opp/OPP-architecture.htm" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">On-Premises Provisioning</a></td>
 
-	</body>
+
+                                <td class="okta-table"><a href="https://developer.okta.com/docs/guides/embedded-siw/main/" style="text-align: center;color:blue;font-weight: 700;font-family: monospace">Okta Sign-In Widget</a></td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="okta-table"><a href="https://help.okta.com/en/prod/Content/Topics/integrations/getting-started.htm" style="text-align: center;color:blue;font-weight: 700;font-family: monospace;">Okta Radius Agent</a></td>
+
+
+                                <td class="okta-table"><a href="https://developer.okta.com/docs/concepts/scim/" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">SCIM Provisioning Connector</a></td>
+
+                                <td class="okta-table"><a href="https://developer.okta.com/docs/concepts/feature-lifecycle-management/" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">API Lifecycle Management</a></td>
+
+
+                            </tr>
+
+                            <tr>
+                                <td class="okta-table"><a href="https://www.okta.com/platform/workflows/" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">Okta Workflows</a></td>
+
+
+                                <td class="okta-table"><a href="https://www.okta.com/products/single-sign-on/" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">SAML/OIDC App Integrations</a></td>
+
+                                <td class="okta-table"><a href="https://www.okta.com/products/api-access-management/" style="vertical-align:top;color:blue;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">API Access Management</a></td>
+
+
+                            </tr>
+
+                        </table>
+                    </div>
+
+
+
+
+
+                    <!-- Table -->
+                    <div id="iam-projects"></div>
+                    <h2><br>Okta Projects</h2>
+
+                    <h4>These projects are part of an ongoing or completed engagement of professional services</h4>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Project</th>
+
+                                    <th>Description</th>
+                                    <th>Logo/Link</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <!-- Projects to include:-->
+                                <tr>
+                                    <td style="vertical-align:top">Schnucks</td>
+                                    <td style="vertical-align:top">OPP deployment project with custom Spring Boot Connector Application development. This application takes care of all provisioning (CRUD) into on-premise databases through Okta group membership. Password synchonization was also achieved.</td>
+
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.memphistn.gov/"><img src="images/schnucks-1_2021-02-25-08-33-27.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">City of Memphis</td>
+                                    <td style="vertical-align:top">OPP deployment project with custom Spring Boot Connector Application development. This application bridges Oracle HCM and Okta Universal Directory. OAG integration with Oracle Hyperion and SSO with additional web based applications</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.memphistn.gov/"><img src="images/city-of-memphis-logo.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Mattel</td>
+                                    <td style="vertical-align:top">Workday as a Master migration from PeopleSoft and custom software. Lead TC in the engagement. Okta Workflows Development to meet custom onboarding and offboarding with Workday.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.motorwerks.com/"><img src="images/mattel.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">CommonSpirit</td>
+                                    <td style="vertical-align:top">200k user Enterprise Okta deployment. Part of the customer assurance task force to bring Okta best practices to the deployment.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://commonspirit.org/"><img src="images/commonspirit.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Cox Automotvie</td>
+                                    <td style="vertical-align:top">Okta Access Gateway Project. Lead TC in reviewing current configuration and give best practices. POC different user flows and troubleshooting scenarios</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.coxautoinc.com/"><img src="images/cox_auto.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">California DMHC</td>
+                                    <td style="vertical-align:top">IDRM and Okta project. The Okta side included custom sign in page configuration. SSO through OIDC with IDRM. Okta attribute updates to be part of the OIDC scope. Okta lifecycle configuration for end user onboarding</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.memphistn.gov/"><img src="images/header_ca.gov.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Minto Corp Services</td>
+                                    <td style="vertical-align:top">Okta Universal Directory integration with AD. Radius agent deployment with VPN service. SAML integration with VPN web applications. Okta authentication and MFA best practices</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.minto.com/"><img src="images/minto.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Railto</td>
+                                    <td style="vertical-align:top">Brought in as Okta Radius Agent specialist in EAP-TTLS integration</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.linkedin.com/company/rialto-management-group/"><img src="images/railto.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align:top">Retrain.ai</td>
+                                    <td style="vertical-align:top">Work through CIAM best practices and authentication architecture escalation to meet customer expectations</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.retrain.ai/"><img src="images/retrain.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Cigna</td>
+                                    <td style="vertical-align:top">Okta Authentication API review and best practices for Springboot app. Demo Okta functionality and configuration for custom user solution</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.cigna.com/"><img src="images/cigna.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Lucira Health</td>
+                                    <td style="vertical-align:top">O365 cutover and go-live. Configure provisioning into O365 and cutting off Directory Sync to AD. Okta masters O365 and provides SSO through WS-Fed</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.lucirahealth.com/"><img src="images/lucira.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">BestCo LLC</td>
+                                    <td style="vertical-align:top">Okta Radius Agent troubleshooting with VPN service. Okta best practices with user app management</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.bestco.com/"><img src="images/bestco.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align:top">ROI Shop</td>
+                                    <td style="vertical-align:top">CIAM engagement going through a custom sign in page migration to Okta Sign In Widget. Also modernize the current Web app to use OIDC</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://theroishop.com/"><img src="images/roi_shop.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Verint</td>
+                                    <td style="vertical-align:top">Okta Access Gateway Project. Fedramp compliance POC. Leveraging Kerberos as an Auth store to then allow access to IWA applications on prem</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.verint.com/"><img src="images/verint-systems-600.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Western National Insurance</td>
+                                    <td style="vertical-align:top">Org2Org project with SSO. Assist in the Guidewire deployment and implentation with the new Okta tenant. AD integration with Okta Universal Directory. Guide customer through Okta best practices</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.wnins.com/"><img src="images/wnins.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">HealthBridge</td>
+                                    <td style="vertical-align:top">CIAM engagement going through current Okta Sign In Widget functionality and suggested development to modernize SSO. Setting up Org2Org to modernize Okta environments</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.myhealthbridge.com/"><img src="images/healthbridge.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Colonial Group</td>
+                                    <td style="vertical-align:top">VPN troubleshooting with Okta Radius Agent</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://colonialgroupinc.com/"><img src="images/colonial_group.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">MotorWerks</td>
+                                    <td style="vertical-align:top">VPN troubleshooting with Okta Radius Agent</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.motorwerks.com/"><img src="images/motorwerks.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Golden Valley</td>
+                                    <td style="vertical-align:top">O365 cutover and provisioning switch to Okta using WS-Fed and out of the box API integration</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.gvhc.org/"><img src="images/gvhc.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Neocis</td>
+                                    <td style="vertical-align:top">ADP as a Master using Okta's OPP agent. Configuration of multiple downstream API provisioning applications. SSO using SAML and OIDC</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.neocis.com/"><img src="images/neocis.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Verafin</td>
+                                    <td style="vertical-align:top">Workforce migration from CIAM tenant. Org2Org architecture deployed with seamless migration of Workforce Endusers and SAML/OIDC applications</td>
+
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.memphistn.gov/"><img src="images/verafin.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Verizon Business Services</td>
+                                    <td style="vertical-align:top">CIAM best practices with API access management capabilities</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.verizon.com/business/"><img src="images/verizon.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">NorthOne Bank</td>
+                                    <td style="vertical-align:top">SSO project with AWS and Okta. Out of the Box API integrations with Bamboo as a Master into Okta.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.chooseultimate.com/"><img src="images/northone.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Amerihome Mortgage</td>
+                                    <td style="vertical-align:top">OAG SSO project with on-prem Jira and Atlassian applications</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.amerihome.com/"><img src="images/amerihome.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">ADS Tactical</td>
+                                    <td style="vertical-align:top">OAG project. Integrating Oracle EBS with Okta.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.adsinc.com/"><img src="images/ads_tactical.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">WW Grainger</td>
+                                    <td style="vertical-align:top">Okta Access Gateway project. Review customer's deployment and configuration and assist in go-live cutover</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.grainger.com/"><img src="images/ww_grainger.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align:top">Ultimate Health Plans</td>
+                                    <td style="vertical-align:top">OIDC integration project. Cover government compliance standards with Okta's best practices</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.chooseultimate.com/"><img src="images/uhp-logo.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td style="vertical-align:top">Baker Hughes</td>
+                                    <td style="vertical-align:top">CIAM engagement. Assist in troubleshooting Springboot applications and their password reset flows as well as their Org2Org architecture and custom sign in widget</td>
+
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.bakerhughes.com/"><img src="images/bakerhughes.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align:top">UW Med Okta Enterprise Deployment</td>
+                                    <td style="vertical-align:top">EpicCare Link and Okta integration. Multiple environments Okta environment integrations. Custom enterprise flow for EpicCare Link end users.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.uwmedicine.org/"><img src="images/uw_med.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align:top">SCGTS</td>
+                                    <td style="vertical-align:top">Update the legacy SPGW appliances to Okta Access Gateway</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="http://www.scgts.com/"><img src="images/sm_globaltubular.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">EZ Texting</td>
+                                    <td style="vertical-align:top">Full Okta deployment as Architect and TC for 200 users. ADP as a Source with Google Workspace.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.eztexting.com/"><img src="images/eztext.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">TPx</td>
+                                    <td style="vertical-align:top">Okta Access Gateway deployment. TC and Architect roles for protecting on-prem applications with OAG.</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.tpx.com/"><img src="images/tpx.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Zurich</td>
+                                    <td style="vertical-align:top">OAG as a replacement solution to open source Nevis reverse proxy authentication. POC Gateway integrations to legacy applications and verify SSO functionality</td>
+                                    <td>
+                                        <div style="margin: 0px auto; width: 100px">
+                                            <a href="https://www.zurich.com/"><img src="images/zurich.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+
+                        <h2><br>ICSynergy Product Experience</h2>
+
+                        <h4></h4>
+                        <div>
+                            <table style="width: 100%; border: 1px solid black">
+                                <tr>
+                                    <td class="okta-table"><a href="https://www.evolvedidentity.com/technology" style="vertical-align:top;color:black;font-weight: 700;font-family: monospace; padding:2px 2px 2px 2px">IDRM</a></td>
+
+
+                                    <td class="okta-table"><a href="https://ic-consult.com/en/" style="text-align: center;color:black;font-weight: 700;font-family: monospace">IC-Batch</a></td>
+
+                                    <td class="okta-table"><a href="https://www.okta.com/products/access-gateway/">SPGW</a></td>
+
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align:top">Evolve Identity's Flagship product. Built upon Django Workflows. Manages governance and permissions of end users</td>
+
+                                    <td style="vertical-align:top">Java application built to bridge Okta and On-Premise Databases without a dedicated connector</td>
+
+                                    <td style="vertical-align:top">Now the Okta Access Gateway. A reverse proxy CentOS appliance running on NGINX</td>
+
+                                </tr>
+
+
+                            </table>
+                        </div>
+
+                        <!-- Table -->
+                        <div id="iam-projects"></div>
+                        <h2><br>ICSynergy/IC-Consult Projects</h2>
+
+                        <h4>These projects are part of an ongoing or completed engagement of professional services</h4>
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Project</th>
+
+                                        <th>Description</th>
+                                        <th>Logo/Link</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <!-- Projects to include:
+-->
+                                    <tr>
+                                        <td style="vertical-align:top">California DMHC</td>
+                                        <td style="vertical-align:top">IDRM deployment in Azure. Fully custom solution between IDRM and Okta. Full governance and access deployment</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="https://www.dmhc.ca.gov/"><img src="images/header_ca.gov.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="vertical-align:top">IDRM</td>
+                                        <td style="vertical-align:top">Part of the development team. Development tasks include: Regression testing of latest builds, AWS deployment documentation, Okta integration documentation</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="https://www.icsynergy.com/services/identityrm-r"><img src="images/ics.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="vertical-align:top">Emerson</td>
+                                        <td style="vertical-align:top">ICBatch update. Tasked with updating current deployment to fix batch bugs between On-Premise Oracle and EBS databases.</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="https://www.emerson.com/en-us"><img src="images/emerson-logo.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:top">SCGTS</td>
+                                        <td style="vertical-align:top">Update the legacy SPGW appliances to Okta Access Gateway</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="http://www.scgts.com/"><img src="images/sm_globaltubular.jpg" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="vertical-align:top">LawPro</td>
+                                        <td style="vertical-align:top">IDRM deployment in AWS. Okta Enterprise and CIAM deployment.</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="https://www.lawpro.ca/"><img src="images/logo-lawpro.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="vertical-align:top">TPx</td>
+                                        <td style="vertical-align:top">Okta Access Gateway deployment. TC and Architect roles for protecting on-prem applications with OAG.</td>
+                                        <td>
+                                            <div style="margin: 0px auto; width: 100px">
+                                                <a href="https://www.tpx.com/"><img src="images/tpx.png" alt="" padding=0 display=inline-block height=100 width=100 overflow="hidden" positon="absolute"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+
+
+
+                            <!-- Footer -->
+                            <footer>
+
+                            </footer>
+
+                        </div>
+
+                        <!-- Footer -->
+                        <footer id="footer">
+
+                            <section class="split contact">
+                                <section class="alt">
+                                    <h3>Time Zone</h3>
+                                    <p>Dayton, Ohio<br />
+                                    </p>
+                                </section>
+
+                                <section>
+                                    <h3>Email</h3>
+                                    <p><a href="#">mark.foos@icsynergy.com</a></p>
+                                </section>
+                                <section>
+                                    <h3>Social</h3>
+                                    <ul class="icons alt">
+
+                                        <li><a href="https://www.linkedin.com/in/mark-foos-854948a4/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                        <li><a href="https://www.github.com/markfoos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                    </ul>
+                                </section>
+                            </section>
+                        </footer>
+
+                        <!-- Copyright -->
+                        <div id="copyright">
+                            <ul>
+                                <li>&copy; </li>
+                                <li><a href="https://html5up.net">Original Site Framework by HTML5UP</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- Scripts -->
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script src="assets/js/jquery.scrollex.min.js"></script>
+                    <script src="assets/js/jquery.scrolly.min.js"></script>
+                    <script src="assets/js/browser.min.js"></script>
+                    <script src="assets/js/breakpoints.min.js"></script>
+                    <script src="assets/js/util.js"></script>
+                    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
